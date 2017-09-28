@@ -10,5 +10,3 @@ urlpatterns = [
     url(r'test/', TemplateView.as_view(template_name="base_site.html")),
     url(r'^admin/', include(admin.site.urls)),
 ]
-
-# Here's New Comment
